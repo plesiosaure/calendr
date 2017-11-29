@@ -1,0 +1,8 @@
+Kodeine Change log
++ = Ajout / Nouveaute
+- = Correction
+* = Autre / Divers / Inclassable...
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+2013-02-01 (5.0.2)
+- Fix pbs boutons avec onclick="remove()"

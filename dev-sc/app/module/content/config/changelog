@@ -1,0 +1,62 @@
+Kodeine Change log
++ = Ajout / Nouveaute
+- = Correction
+* = Autre / Divers / Inclassable...
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+2013-07-01 (5.2.2)
++ Page intermediaire listante les contenus
+
+2013-03-15 (5.2.1)
++ Déplacement de la gestion des type dans le module type (/admin/content/type => /admin/type/)
+
+2013-02-14 (5.0.21)
++ gestion des champs de type CODE
++ migraiton des infos sur TYPE dans le module du même nom
+
+2013-02-08 (5.0.20)
++ sauvegarde de l'etat de la case a cocher "generer automatiquement" pour la reecriture auto de l'url d'un contenu
+
+2013-02-01 (5.0.19)
+- Fix pbs boutons avec onclick="remove()"
+
+2013-01-23 (5.0.18)
+- Fix bouton "Effectuer les changements" dans content/index
+
+2013-01-17 (5.0.17)
+- LESS to CSS
+
+(5.0.16)
+- Inconnu
+
+2013-01-02 (5.0.15)
+- Suppression de certianes images
+
+2012-12-05 (build 5.0.14)
++ possibilite d'ajouter des colonnes dans content/index depuis la gestion des types
+
+2012-12-04 (build 5.0.12)
+- Fix CSS
+
+2012-11-30 (build 5.0.12)
++ content/data : modification nom et ordres des boutons et bouton retour avec icone liste + nom du type
+
+2012-11-22 (build 5.0.11)
+- content/data : correction de la fonction JS dupli() qui duplique les prix sur tous les groupes dans les content de type business
+
+2012-11-21 (build 5.0.10)
+- api.content : contentRemove > si pas de langue definie alors on supprime le contenu et toutes ses langues + verification des parametres id_type et id_content
+- /content/data : ajout bouton supprimer le contenu
+- /content/index : correction lien sur les langues > pointent maintenant vers data-language?id_content=...&language=...
+
+2012-11-07 (build 5.0.7)
+- /content/ui/js/content.js : setUrlBehaviour ne prends pas en compte touche tabulation et shift
+
+2012-11-07 (build 5.0.6)
+- /content/type > correction bug qui rendait impossible la selection du type business et galerie a la creation d'un type
+
+2012-11-06 (build 5.0.5)
+- ajout du datepicker sur champs de type datepicker
+
+2012-11-05 (build 5.0.4)
+- pb url sur lien langue dans content/index

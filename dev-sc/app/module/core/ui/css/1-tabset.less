@@ -1,0 +1,127 @@
+@tab-strong-color: #cdcdcd;
+
+.tabset{
+	margin: 20px 0px 20px 0px;
+
+	.tab{
+		margin: 0px; padding: 0px;
+	//	margin-bottom:-1px;
+	//  border-bottom:1px solid @tab-strong-color;
+
+		li{
+			list-style-type: none;
+			padding: 7px 0 5px 0;  margin: 0px 0px 0px 10px;
+			float: left;
+			cursor: pointer;
+			text-align: center;
+			border: 1px solid transparent; border-bottom: none;
+
+			&.is-tab{
+				padding-left:10px; padding-right: 10px;  
+				background: @nav-background;
+				border-color: transparent;
+				color: @top-a-color !important;
+
+				&.is-selected{
+					background: rgb(245, 245, 245);
+					border-color: @tab-strong-color;
+
+					*{
+						color: #777 !important;
+					}
+				}
+
+				&.needToBeFilledInside{
+					background: red;
+					color: black;
+				}
+
+				a:hover{
+					color:lighten(gray, 20%) !important;
+				}
+			}
+
+			&.light{
+				background: lighten(@sub_nav-background, 4%);
+			}
+		}
+
+		.do-viewer{
+			padding:0px; margin: 0px;
+		}
+	}
+
+	.view{
+		margin: 0px;
+		background: @sub_nav-background; //#f0f4f5;
+
+		&.hide{
+			display: none;
+		}
+
+		.view-label-colored{
+			border: 1px solid #a6b5be; border-bottom: none;
+			color:#515151;
+			background: #d9f7a5;
+		}
+		
+		.view-split{
+			color:#000;
+			padding:5px;
+			border-bottom:1px solid tab-strong-color;
+			background-size: 40px 40px;
+			background-color: #F1F1F1;
+			background-image: -webkit-gradient(linear, 100% 0, 0 100%,
+								color-stop(0.25, rgba(255, 255, 255, 0.9)),
+								color-stop(0.25, transparent),
+								color-stop(0.5, transparent),
+								color-stop(0.5, rgba(255, 255, 255, 0.9)),
+								color-stop(0.75, rgba(255, 255, 255, 0.9)),
+								color-stop(0.75, transparent), to(transparent));
+		}
+
+		table.form td{
+			padding:5px;
+		}
+	}
+
+
+	.view-label{
+		color: #808080; font-weight: bold;
+		padding:5px;
+
+		border-bottom:1px solid tab-strong-color;
+
+		background-size: 40px 40px;
+		background-color: #F1F1F1;
+		background-image: -webkit-gradient(linear, 100% 0, 0 100%,
+							color-stop(0.25, rgba(255, 255, 255, 0.9)),
+							color-stop(0.25, transparent),
+							color-stop(0.5, transparent),
+							color-stop(0.5, rgba(255, 255, 255, 0.9)),
+							color-stop(0.75, rgba(255, 255, 255, 0.9)),
+							color-stop(0.75, transparent), to(transparent));
+
+		border-bottom: 1px solid @tab-strong-color;
+	}
+
+	&.editing .view-label{
+		-webkit-animation: progress-bar-stripes 1s linear infinite;
+	}
+
+	&.loading .view-label{
+		-webkit-animation: progress-bar-stripes-reverse 1s linear infinite;
+	}
+
+}
+
+
+@-webkit-keyframes progress-bar-stripes {
+	from  { background-position: 40px 0; }
+	to    { background-position: 0 0; }
+}
+
+@-webkit-keyframes progress-bar-stripes-reverse {
+	from  { background-position: 0 0; }
+	to    { background-position: 40px 0; }
+}

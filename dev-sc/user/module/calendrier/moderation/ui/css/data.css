@@ -1,0 +1,75 @@
+#split .title {
+  text-align: center;
+  background: #428bca;
+  color: #FFF;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#split table.main {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+#split table.main td {
+  border: 1px solid #313131;
+  padding: 5px;
+}
+#split table.main td.libelle {
+  text-align: center;
+  font-weight: bold;
+}
+#split table.inside td {
+  border: 0;
+  padding: 0;
+}
+#split .field {
+  width: 95%;
+  border: 0;
+  background: #e1e1e1;
+  padding: 5px;
+}
+#split .field:focus {
+  outline: none;
+  background: #b9b9b9;
+}
+#split .field.short {
+  width: 30%;
+}
+#split .field.tiny {
+  width: 15%;
+}
+#split .field.date {
+  width: 100px;
+}
+#split .images {
+  padding: 10px;
+}
+#split .images .item {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+#split .images .item img {
+  display: block;
+}
+#split .images .item .action {
+  display: block;
+  padding: 5px;
+  background: #404040;
+  color: #FFF;
+  font-style: normal;
+  margin-top: 1px;
+}
+#editor {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+#editor td {
+  border: 1px solid #404040;
+  padding: 5px;
+}
+#editor td.head {
+  background: #428bca;
+  color: #FFF;
+}
+/*# sourceMappingURL=/user/module/calendrier/moderation/ui/css/data.css.map */

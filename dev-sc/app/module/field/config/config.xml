@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+
+	<data>
+		<key>field</key>
+		<version>5.2.0</version>
+        <lastMod>2013-02-27</lastMod>
+		<menu>NO</menu>
+		<name><![CDATA[Fields]]></name>
+	</data>
+
+    <locale language="fr_FR">
+        <name><![CDATA[Champs]]></name>
+    </locale>
+
+    <i18n>
+        <file>asso.php</file>
+        <file>index.php</file>
+        <file>ui/menu.php</file>
+    </i18n>
+
+</element>

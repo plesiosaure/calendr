@@ -1,0 +1,6 @@
+[submodule "app"]
+	path = app
+	url = git://github.com/kappuccino/kodeine.git
+[submodule "user/module/datamongo"]
+	path = user/module/datamongo
+	url = git://git.kappuccino.net/kodeine-mod-datamongo.git

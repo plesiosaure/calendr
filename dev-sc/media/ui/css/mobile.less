@@ -1,0 +1,68 @@
+nav{
+	text-align: center;
+
+	@gradient-from: #FFFFFF;
+	@gradient-to: #f1f1f1;
+
+	border: 1px solid #d4d4d4;
+	border-left: none;
+	border-right: none;
+	padding: 3px 15px;
+
+	background: #f1f1f1;
+	background: -webkit-linear-gradient(top,  @gradient-from 0%, @gradient-to 100%);
+	background: -moz-linear-gradient(top,  @gradient-from 0%, @gradient-to 100%);
+	background: -ms-linear-gradient(top,  @gradient-from 0%, @gradient-to 100%);
+	background: -o-linear-gradient(top,  @gradient-from 0%, @gradient-to 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, @gradient-from), color-stop(100%, @gradient-to));
+	background: linear-gradient(to bottom,  @gradient-from 0%, @gradient-to 100%);
+}
+
+// Revister le btn de boostrap pour le mobile
+.btn{
+	background: #428bca;
+	border-color: #357ebd;
+	color: #FFF;
+	text-shadow: none;
+	box-shadow: none;
+
+	&:hover{
+		background: #3276b1;
+		border-color: #285e8e;
+		color: #FFF;
+	}
+}
+
+.manif-detail{
+	h1{
+		font-size: 18px; line-height: 24px;
+		padding: 0 10px;
+	}
+
+	h4{
+		padding: 0 5px 20px 10px;
+	}
+}
+
+#manif-result{
+	margin-top: 20px;
+}
+
+
+#map-detail{
+	height: 200px;
+}
+
+.pagination-custom{
+	text-align: center;
+
+	.btn{
+		display: inline-block;
+		margin: 0 5px;
+	}
+
+	a{
+		font-weight: normal;
+		color: #FFF;
+	}
+}

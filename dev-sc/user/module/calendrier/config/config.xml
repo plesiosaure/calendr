@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+
+    <data>
+        <key>calendrier</key>
+        <version>1.0.0</version>
+        <lastMod>2013-09-18</lastMod>
+        <menu>YES</menu>
+        <name><![CDATA[Calendrier]]></name>
+    </data>
+
+    <profile>
+        <item code="index" type="ALLOW_DENY" name="Accessible" />
+    </profile>
+
+</element>

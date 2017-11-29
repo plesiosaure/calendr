@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+.ignore
+.log
+.err
+/_build/node_modules/
+/media/*
+!/media/ui/
+/media/ui/img/avatar/users/
+/media/ui/map/kml/json/
+/user/config/.onair
+/user/log
+/user/dump
+/user/tmp
+/user/temp
+/user/module/calendrier/crontab/gps.err
+/user/module/calendrier/crontab/gps.log

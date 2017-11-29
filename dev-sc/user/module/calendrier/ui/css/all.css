@@ -1,0 +1,24 @@
+#syncNumber {
+  background: #8b2041;
+  border-radius: 16px;
+  padding: 2px 5px 2px 5px;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFF;
+}
+form.check input.parsley-success,
+form.check select.parsley-success,
+form.check textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+form.check input.parsley-error,
+form.check select.parsley-error,
+form.check textarea.parsley-error {
+  background-color: #F2DEDE;
+}
+form.check .parsley-errors-list {
+  display: none;
+}
+/*# sourceMappingURL=/user/module/calendrier/ui/css/all.css.map */

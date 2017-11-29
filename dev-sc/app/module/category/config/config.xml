@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+
+    <data>
+        <key>category</key>
+        <version>5.2.1</version>
+        <lastMod>2013-09-10</lastMod>
+        <menu>NO</menu>
+        <name><![CDATA[Category]]></name>
+    </data>
+
+    <locale language="fr_FR">
+        <name><![CDATA[Catégorie]]></name>
+    </locale>
+
+    <i18n>
+        <file>index.php</file>
+    </i18n>
+
+</element>

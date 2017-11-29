@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+
+	<data>
+		<key>user</key>
+		<version>5.2.1</version>
+        <lastMod>2013-07-01</lastMod>
+        <name><![CDATA[User]]></name>
+	</data>
+
+    <locale language="fr_FR">
+		<name><![CDATA[Utilisateur]]></name>
+    </locale>
+
+    <i18n>
+        <file>data.php</file>
+        <file>export.php</file>
+        <file>group.php</file>
+        <file>group-view.php</file>
+        <file>import.php</file>
+        <file>import-book.php</file>
+        <file>index.php</file>
+        <file>picker.php</file>
+        <file>picker-addressook.php</file>
+        <file>picker-create.php</file>
+        <file>picker-data.php</file>
+        <file>profile.php</file>
+        <file>search.php</file>
+    </i18n>
+
+	<profile>
+		<item code="index" 		type="ALLOW_DENY" name="Accessible" />
+		<item code="profile"	type="ALLOW_DENY" name="Profil" />
+		<item code="group" 		type="ALLOW_DENY" name="Groupe" />
+		<item code="field" 		type="ALLOW_DENY" name="Champ" />
+		<item code="search"		type="ALLOW_DENY" name="Search" />
+	</profile>
+
+</element>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+
+	<data>
+		<key>media</key>
+		<version>5.2.2</version>
+		<lastMod>2013-07-11</lastMod>
+		<install>YES</install>
+        <name><![CDATA[File Manager]]></name>
+	</data>
+
+    <locale language="fr_FR">
+		<name><![CDATA[Gestionnaire de fichiers]]></name>
+    </locale>
+
+    <i18n>
+        <file>index.php</file>
+        <file>pref.php</file>
+        <file>ui/menu.php</file>
+    </i18n>
+
+	<profile>
+		<item code="index"	type="ALLOW_DENY" name="Accessible" />
+		<item code="use" 	type="ALLOW_DENY" name="Utiliser" />
+		<item code="remove" type="ALLOW_DENY" name="Supprimer" />
+		<item code="create" type="ALLOW_DENY" name="Nouveau dossier" />
+		<item code="rename" type="ALLOW_DENY" name="Renommer" />
+		<item code="move" 	type="ALLOW_DENY" name="Deplacer" />
+		<item code="upload" type="ALLOW_DENY" name="Mettre en ligne" />
+		<item code="thumbs" type="ALLOW_DENY" name="Vignette" />
+		<item code="root"	type="FREE" 	  name="Dossier de depart" />
+	</profile>
+
+</element>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+
+	<data>
+		<key>rate</key>
+		<version>5.2.0</version>
+		<lastMod>2013-02-27</lastMod>
+
+		<name><![CDATA[Note]]></name>
+		<menu>NO</menu>
+	</data>
+
+    <locale language="fr_FR">
+        <name><![CDATA[Note]]></name>
+    </locale>
+
+</element>

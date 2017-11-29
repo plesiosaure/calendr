@@ -1,0 +1,2 @@
+- le nom de mois et des jours sont en français
+- le positionnement (fonction place) a été revu pour ne pas que le picker sorte de la fenête

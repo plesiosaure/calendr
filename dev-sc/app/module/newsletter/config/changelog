@@ -1,0 +1,32 @@
+Kodeine Change log
++ = Ajout / Nouveaute
+- = Correction
+* = Autre / Divers / Inclassable...
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+2013-02-12 (5.1.2)
+- Fix pb js chargement template editeur classique
+- Fix pb reset newsletter
+
+2013-02-01 (5.1.1)
+- Fix bug qd plusieurs clics sur zone editable
+
+2013-02-01 (5.1.0)
++ Installation Designer V2
+
+2013-01-02 (5.0.12)
+- Suppression des images
+
+2012-12-06 (build 5.0.10)
+- Fix pb options affichage + alignement pagination a droite dans index
+
+2012-12-03 (build 5.0.9)
+- data.php : remise en place de la case a cocher Archive
+
+2012-11-09 (build 5.0.7)
+- Standardisation des boutons et ajout du bouton "ajouter (type contenu)"
+
+2012-11-06 (build 5.0.6)
+- Correction bug dans connector/cloudapp/data-list > fonction getSelected (restes de Mootools)
+- Correction du fichier de calcul du total des abonnes dans helper/total.php > prise en compte des recherches predefinies
+- Correction probleme suppression mail dans liste /module/newsletter/list.php fonction JS kill()

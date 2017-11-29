@@ -1,0 +1,10 @@
+Bonjour {nom},
+
+Votre demande de création, modification, suppression sur notre site super-calendrier.com pour
+la manifestation suivante : {manifestation} a été refusée par notre équipe pour le(s) motif(s) suivant(s) :
+
+...
+
+Les données d'origine sont toujorus présentes sur le site et vous pouvez y accéder en cliquant blablabla.
+Pour toute question, nos équipes sont disponibles de 00h à 0h du lundi au vendredi au 00.00.00.00.00 ou
+par mail à l'adresse blabla@lva.fr

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+
+	<data>
+		<key>shop</key>
+		<version>5.2.0</version>
+        <lastMod>2013-02-27</lastMod>
+		<menu>NO</menu>
+		<name><![CDATA[Shop]]></name>
+	</data>
+
+    <locale language="fr_FR">
+        <name><![CDATA[Magasin]]></name>
+    </locale>
+
+</element>

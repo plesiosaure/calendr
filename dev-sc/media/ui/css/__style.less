@@ -1,0 +1,94 @@
+	@import "../vendor/bootstrap/less/reset.less";
+	@import "../vendor/bootstrap/less/mixins.less";
+	@import "../vendor/bootstrap/less/variables.less"; 				// Modify this for custom colors, font-sizes, etc
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	@import "../vendor/bootstrap-datepicker-custom/css/datepicker.less";
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Customisation de VENDOR + MIXIN + COLORS
+	@import "variables.less";
+	@import "dev.less";
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//  @import "../vendor/bootstrap/less/scaffolding.less";
+//  @import "../vendor/bootstrap/less/grid.less";
+//  @import "../vendor/bootstrap/less/layouts.less";
+	@import "../vendor/bootstrap/less/type.less";
+	@import "../vendor/bootstrap/less/code.less";
+	@import "../vendor/bootstrap/less/forms.less";
+	@import "../vendor/bootstrap/less/tables.less";
+	@import "../vendor/bootstrap/less/sprites.less";
+	@import "../vendor/bootstrap/less/dropdowns.less";
+	@import "../vendor/bootstrap/less/wells.less";
+	@import "../vendor/bootstrap/less/component-animations.less";
+	@import "../vendor/bootstrap/less/close.less";
+	@import "../vendor/bootstrap/less/buttons.less";
+	@import "../vendor/bootstrap/less/button-groups.less";
+	@import "../vendor/bootstrap/less/alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
+//	@import "../vendor/bootstrap/less/navs.less";
+//	@import "../vendor/bootstrap/less/navbar.less";
+	@import "../vendor/bootstrap/less/breadcrumbs.less";
+	@import "../vendor/bootstrap/less/pagination.less";
+//	@import "../vendor/bootstrap/less/pager.less";
+//	@import "../vendor/bootstrap/less/modals.less";
+	@import "../vendor/bootstrap/less/tooltip.less";
+//	@import "../vendor/bootstrap/less/popovers.less";
+//	@import "../vendor/bootstrap/less/thumbnails.less";
+//	@import "../vendor/bootstrap/less/labels-badges.less";
+	@import "../vendor/bootstrap/less/progress-bars.less";
+//	@import "../vendor/bootstrap/less/accordion.less";
+//	@import "../vendor/bootstrap/less/carousel.less";
+//  @import "../vendor/bootstrap/less/hero-unit.less";
+	@import "../vendor/bootstrap/less/utilities.less";
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// MAIN
+@import "grid.less";
+@import "form.less";
+@import "main.less";
+@import "block.less";
+@import "table.less";
+
+// Specific
+@import "home.less";
+@import "manif.less";
+@import "organisateur.less";
+
+.datepicker {
+	&:before {
+		display: none;
+	}
+	&:after{
+		display: none;
+	}
+}
+
+@import (less) url('../vendor/fancybox/source/jquery.fancybox.css');
+
+@media (min-width: @mobile){
+	.no-mobile{
+		display: block;
+	}
+	.mobile{
+		display: none;
+	}
+}
+
+@media (max-width: @mobile){
+	.no-mobile{
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+	}
+
+	@import "mobile.less";
+}
+

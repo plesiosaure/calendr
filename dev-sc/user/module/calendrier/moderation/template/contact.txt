@@ -1,0 +1,12 @@
+Cher {nom}
+
+Vous avez faite une demande sur notre site super-calendrier.com concernant la création/modification/suppression de
+votre manifestation {manifestation}.
+
+Pour pouvoir y donner une suite favorable nous aurions besoin de compéments d'informations:
+
+...
+
+Nous vous remercions de l'intérêt que vous portez à notre site.
+
+Cordialement.

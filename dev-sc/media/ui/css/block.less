@@ -1,0 +1,95 @@
+.block{
+	margin-bottom: 20px;
+	font-size: 12px;
+
+	.title{
+		font-size:14px; font-weight: bold; color: #000; //666666;
+		margin-bottom: 10px;
+
+		&.light{
+			font-weight: 100;
+		}
+
+		&.medium{
+			font-size: 18px;
+		//	font-weight: 100;
+		}
+
+		a{
+			color: inherit;
+		}
+	}
+
+	.resume{
+		font-size: 12px;
+
+		&.justify{ text-align: justify; }
+	}
+
+	a{
+		text-decoration: underline;
+		color: #000;
+
+		&.btn{
+			text-decoration: none;
+		}
+
+		&.readmore{
+			margin: 10px 0 10px 0;
+
+			&.right{
+			}
+		}
+	}
+
+	.label{
+		&.small{
+			padding-top: 5px;
+		}
+	}
+
+	.item{
+		margin-bottom: 10px;
+	}
+
+	// CAS PARTICULIER ///////
+
+	&.right-search{
+		select{ width: 175px; }
+		.date input{ width: 108px; text-align: center; } // Ne pas utiliser la classe .date
+		input.search{ width: 160px; }
+		.zip{ width: 175px; }
+
+		i{
+			margin-top: 2px;
+
+			&.icon-remove{
+				margin-top: 3px;
+			}
+		}
+	}
+
+	&.ad-block{
+		border: 1px solid #f1f1f1;
+	}
+
+	&.mapped{
+		background: #f5f5f5;
+		border:1px solid #eeeeee;
+		border-radius: 3px;
+		padding: 3px;
+	}
+
+	&.block-actu-right{
+		.all-news{
+			text-align: right;
+		}
+	}
+}
+
+.block-bordered{
+	background: #f5f5f5;
+	border:1px solid #eeeeee;
+	border-radius: 3px;
+	padding: 8px;
+}

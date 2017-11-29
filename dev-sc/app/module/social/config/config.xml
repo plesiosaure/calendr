@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+
+    <data>
+        <key>social</key>
+        <version>5.2.1</version>
+        <lastMod>2013-04-15</lastMod>
+        <install>YES</install>
+        <name><![CDATA[Social network]]></name>
+    </data>
+
+    <locale language="fr_FR">
+        <name><![CDATA[Réseau social]]></name>
+    </locale>
+
+    <i18n>
+        <file>index.php</file>
+        <file>circle.php</file>
+        <file>forum.php</file>
+        <file>ui/menu.php</file>
+    </i18n>
+
+    <profile>
+        <item code="index"		type="ALLOW_DENY" name="Accessible" />
+    </profile>
+
+</element>

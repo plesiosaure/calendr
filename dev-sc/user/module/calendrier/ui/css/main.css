@@ -1,0 +1,92 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.btn-group-center {
+  text-align: center;
+}
+.row-fluid.no-gutter [class*="span"] {
+  margin-left: 0;
+}
+.row-fluid.no-gutter .span1 {
+  width: 8.33333333%;
+}
+.row-fluid.no-gutter .span2 {
+  width: 16.66666667%;
+}
+.row-fluid.no-gutter .span3 {
+  width: 25%;
+}
+.row-fluid.no-gutter .span4 {
+  width: 33.33333333%;
+}
+.row-fluid.no-gutter .span5 {
+  width: 41.66666667%;
+}
+.row-fluid.no-gutter .span6 {
+  width: 50%;
+}
+.row-fluid.no-gutter .span7 {
+  width: 58.33333333%;
+}
+.row-fluid.no-gutter .span8 {
+  width: 66.66666667%;
+}
+.row-fluid.no-gutter .span9 {
+  width: 75%;
+}
+.row-fluid.no-gutter .span10 {
+  width: 83.33333333%;
+}
+.row-fluid.no-gutter .span11 {
+  width: 91.66666667%;
+}
+.row-fluid.no-gutter .span12 {
+  width: 100%;
+}
+.view-label.left-sep {
+  border-left: 1px solid #cdcdcd;
+}
+.view-label.yellow {
+  background-size: 40px 40px;
+  background-color: #F1F1F1;
+  background-image: -webkit-gradient(linear, 100% 0, 0 100%, color-stop(0.25, rgba(255, 239, 0, 0.8)), color-stop(0.25, #000000), color-stop(0.5, #000000), color-stop(0.5, rgba(255, 239, 0, 0.8)), color-stop(0.75, rgba(255, 239, 0, 0.8)), color-stop(0.75, #000000), to(transparent));
+  border-bottom: 1px solid #cdcdcd;
+}
+.editing .view-label {
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+}
+#preview {
+  background: rgba(0, 0, 0, 0.8);
+  width: 300px;
+}
+#preview .data {
+  margin: 5px;
+  padding: 5px;
+  color: #FFF;
+  min-height: 50px;
+}
+/*# sourceMappingURL=/user/module/calendrier/ui/css/main.css.map */

@@ -1,0 +1,1 @@
+<div id="carou-top"><img src="http://placehold.it/1200x200&text=CAROUSSEL"></div>

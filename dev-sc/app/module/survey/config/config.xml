@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+
+	<data>
+		<key>survey</key>
+		<version>5.2.0</version>
+		<lastMod>2013-02-27</lastMod>
+		<install>YES</install>
+		<name><![CDATA[Survey]]></name>
+	</data>
+
+    <locale language="fr_FR">
+        <name><![CDATA[Enquête]]></name>
+    </locale>
+
+    <i18n>
+        <file>data.php</file>
+        <file>index.php</file>
+        <file>order.php</file>
+        <file>query.php</file>
+        <file>stat.php</file>
+        <file>ui/menu.php</file>
+    </i18n>
+
+	<profile>
+		<item code="index"	type="ALLOW_DENY" name="Accessible" />
+	</profile>
+
+</element>

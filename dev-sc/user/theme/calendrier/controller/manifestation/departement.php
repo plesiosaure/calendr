@@ -1,0 +1,7 @@
+<?php
+
+	$api = $this->apiLoad('calendrierManifestation');
+
+	// DATA ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	$myData = $this->apiLoad('calendrierManifestation')->manifestationByDept();

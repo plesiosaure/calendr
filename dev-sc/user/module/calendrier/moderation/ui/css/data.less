@@ -1,0 +1,102 @@
+
+#split{
+
+	.title{
+		text-align: center;
+		background: #428bca;
+		color: #FFF;
+		padding: 10px;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+//-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+	table.main{
+		width: 100%;
+		border-collapse: collapse;
+		margin-bottom: 15px;
+
+		td{
+			border: 1px solid #313131;
+			padding: 5px;
+
+			&.libelle{
+				text-align: center;
+				font-weight: bold;
+			}
+		}
+	}
+
+	table.inside{
+		td{
+			border: 0;
+			padding: 0;
+		}
+	}
+
+
+	.field{
+		width: 95%;
+		border: 0;
+		background: #e1e1e1;
+		padding: 5px;
+
+		&:focus{
+			outline: none;
+			background: #b9b9b9;
+		}
+
+		&.short{
+			width: 30%;
+		}
+
+		&.tiny{
+			width: 15%;
+		}
+
+		&.date{
+			width: 100px;
+		}
+	}
+
+	.images{
+		padding: 10px;
+
+		.item{
+			float: left;
+			margin: 0 10px 10px 0;
+
+			img{
+				display: block;
+			}
+
+			.action{
+				display: block;
+				padding: 5px;
+				background: #404040;
+				color: #FFF;
+				font-style: normal;
+				margin-top: 1px;
+			}
+		}
+	}
+
+}
+
+
+#editor{
+	border-collapse: collapse;
+	margin-bottom: 20px;
+
+	td{
+		border: 1px solid #404040;
+		padding: 5px;
+
+		&.head{
+			background: #428bca;
+			color: #FFF;
+		}
+
+	}
+}

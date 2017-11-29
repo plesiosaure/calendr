@@ -1,0 +1,66 @@
+@frame: #ccc;
+
+body{
+	-webkit-touch-callout: none;
+	  -webkit-user-select: none;
+	   -khtml-user-select: none;
+	     -moz-user-select: none;
+		  -ms-user-select: none;
+		      user-select: none;
+}
+
+// -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+.picker{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.myCal{
+	float: left;
+	margin: 0 20px 20px 0px;
+	border-right:1px solid #CCC;
+
+	thead th{
+		border:1px solid @frame; border-right: none;
+		padding: 4px;
+		background: #dedede
+	}
+
+	td{
+		padding: 4px;
+		border-left:1px solid @frame; border-bottom:1px solid @frame;
+		background: #FFF;
+		text-align: center; color: #4c4c4c; cursor: pointer;
+	}
+
+	tbody{
+		.days{
+			td{
+				&.hasData{
+					background: #67ace9;
+					.number{
+						color: #FFF;
+					}
+				}
+
+				&.hightlight{
+					background: #fdd675;
+				}
+
+				&.ferie .number{
+					color: red;
+				}
+
+				.number{
+					color: #000000;
+				}
+
+				&.previous, &.next{
+					background: #f2f2f2;
+					color: #a9a9b6;
+				}
+			}
+		}
+	}
+}

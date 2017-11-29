@@ -1,0 +1,111 @@
+@site-width: 1200px;            // Largeur du site                               |<------------------->|
+@left-width:  860px;            // Colonnne de gauche                            |<------------>| |....|
+@right-width: 300px;            // Colonne de droite                             |..............| |<-->|
+@left-left-width: 250px;        // Sous Colonne de gauche GAUCHE                 |<-->||........| |....|
+@left-right-width: 600px;       // Sous Colonne de gauche DROITE                 |....||<------>| |....|
+@left-tinyleft-width: 200px;    // Petite Colonne de gauche GAUCHE               |<->||.........| |....|
+@left-largeright-width: 620px;  // Large Colonne de gauche DROITE                |...||<------->| |....|
+
+
+@gridColumns: 9;
+@gridColumnWidth: 70px;
+@gridGutterWidth: 30px;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.b(@color){
+	background: @color;
+}
+
+.show-grid [class*="span"]{
+	min-height: 20px;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+header, footer, #main {
+	width: @site-width;
+	margin: 0 auto;
+
+	@media (max-width: @mobile){
+		width: 100%;
+	}
+}
+
+#map img{
+	max-width: none;
+}
+
+#main{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	& > .left{
+		width: @left-width; float: left;
+
+		& > .left{          width: @left-left-width;        float: left;}
+		& > .left.tiny{     width: @left-tinyleft-width;    float: left;}
+
+		& > .right{         width: @left-right-width;       float: right;}
+		& > .right.large{   width: @left-largeright-width;  float: right;}
+
+	}
+
+	& > .right{
+		width: @right-width; float: right;
+	}
+
+	@media (max-width: @mobile){
+		& > .left{
+			width: auto;
+			margin: 0;
+
+			& > .left,
+			& > .left.tiny{     width: 95%; margin: 0 auto; float: none;}
+
+			& > .right,
+			& > .right.large{   width: 95%; margin: 0 auto; float: none;}
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

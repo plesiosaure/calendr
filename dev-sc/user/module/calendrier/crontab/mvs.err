@@ -1,0 +1,7 @@
+PHP Fatal error:  Uncaught exception 'MongoCursorTimeoutException' with message 'localhost:27017: cursor timed out (timeout: 30000, time left: 0:0, status: 0)' in /home/motoregister/dev-sc/user/module/calendrier/api.calendrierMvs.php:1036
+Stack trace:
+#0 /home/motoregister/dev-sc/user/module/calendrier/api.calendrierMvs.php(1036): MongoCollection->findOne(Array)
+#1 /home/motoregister/dev-sc/user/module/calendrier/api.calendrierMvs.php(906): calendrierMvs->manifestationImportItem(Object(MongoCollection), Array)
+#2 /home/motoregister/dev-sc/user/module/calendrier/crontab/3_manif.php(21): calendrierMvs->manifestationImport(Array)
+#3 {main}
+  thrown in /home/motoregister/dev-sc/user/module/calendrier/api.calendrierMvs.php on line 1036

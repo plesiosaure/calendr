@@ -1,0 +1,78 @@
+.manif-detail{
+
+	&.preview{
+		padding-left: 45px;
+
+		border-bottom: 1px solid #e1e1e1;
+		padding-bottom: 20px;
+
+	}
+
+	&.is-auto{          background: url(/media/ui/img/icons/category-medium-auto.png) no-repeat left top; }
+	&.is-moto{          background: url(/media/ui/img/icons/category-medium-moto.png) no-repeat left top; }
+	&.is-collection{    background: url(/media/ui/img/icons/category-medium-collection.png) no-repeat left top; }
+
+	h1, h4{ // Brocante et braderie
+		margin-bottom: 0;
+	}
+
+	h4{ // Dimanche 6 Octobre à Bordeaux
+		font-size: 14px;
+		font-weight: 200;
+	}
+
+	h5{ // Date (le titre qui liste le nombre de date et le listing
+		margin-top: 30px;
+		font-weight: 100; color: #333333;
+	}
+
+	// Lien vers la manigestation, le titre la vill etc..
+	a.name{
+		span.name{  font-weight: bold; }
+		span.city{ font-weight: bold;  }
+		span.zip{  }
+		span.date{ }
+	}
+
+	.resume{
+		margin-top: 20px;
+		font-size: 12px;
+	}
+
+	.toy{
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+	// La galerie photo de la manif
+	.gallery{
+		.clearfix;
+
+		.item{
+			float: left;
+			margin: 0px 10px 10px 0;
+
+			a{
+				display: table-cell;
+				height: 120px; width: 145px;
+				vertical-align: middle;
+
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+	}
+
+}
+
+#map-detail{
+	height: 500px;
+
+	img{
+		max-width: none;
+	}
+}
